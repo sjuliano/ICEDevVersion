@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Dept of Interior Sample Courseware Launcher</title>
+</head>
+<body bgcolor="#000000" style="margin:0px; background-color:#FFFFFF" scroll="no" onload="javascript:checkVersion()">
+<div id="launchcontainer">
+	<table>
+    	<tr>
+        	<td>
+    			<div id="logo"></div>
+                <p>Select a module to the right to begin.</p>
+            </td>
+            <td>    
+    <div id="nav">
+    	<ul>
+            <li id="bw"><a href="javascript:beingWell()">launch demo</a></li>
+    	</ul>
+    </div>
+    		</td>
+        </tr>
+    </table>
+</div>
+<script type="text/javascript">
+
+    function beingWell()
+    {
+       window.open("host.htm?data=moduleConfig.xml&mode=presentation", "Demo", "resizable=no,toolbar=no,scrollbars=no,menubar=no,status=no,directories=no,location=0,width=" + 1024 + ",height=" + 768 + ",left=" + 0 + ",top=" + 0 + "")
+       // window.open("host.htm?data=moduleConfig.xml&mode=presentation", "Demo", "resizable=yes,toolbar=yes,scrollbars=yes,menubar=yes,status=yes,directories=yes,location=0,width=" + 1024 + ",height=" + 768 + ",left=" + 0 + ",top=" + 0 + "")
+    }
+
+
+    function getInternetExplorerVersion()
+    // Returns the version of Internet Explorer or a -1
+    // (indicating the use of another browser).
+    {
+
+        var rv = -1; // Return value assumes failure.
+        if (navigator.appName == 'Microsoft Internet Explorer') {
+            var ua = navigator.userAgent;
+            var re = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+            if (re.exec(ua) != null)
+                rv = parseFloat(RegExp.$1);
+        }
+
+        return rv;
+    }
+    function checkVersion()
+    {
+        var msg = "You're not using Internet Explorer.";
+        var ver = getInternetExplorerVersion();
+
+        if (ver > -1) {
+            if (ver >= 7.0)
+                msg = "";
+            else if (ver > 7.0)
+                msg = "You are using a copy of Internet Explorer greater than 7. This application was developed to Internet Explorer 7 and Firefox 3.  Any unexpected experiences could be a direct result of your browser version and settings";
+            else
+                msg = "You should upgrade your copy of Internet Explorer to version 7. This application was developed to Internet Explorer 7 and Firefox 3.  Any unexpected experiences could be a direct result of your browser version and settings";
+        }
+
+        else if (/Firefox[\/\s](\d+\.\d+)/.test(navigator.userAgent)) { //test for Firefox/x.x or Firefox x.x (ignoring remaining digits);
+            var ffversion = new Number(RegExp.$1) // capture x.x portion and store as a number
+            if (ffversion >= 3)
+                msg = "";
+            else
+                msg = "You should upgrade your copy of Firefox to version 3. This application was developed to Internet Explorer 7 and Firefox 3.  Any unexpected experiences could be a direct result of your browser version and settings";
+
+        }
+        else {
+            msg = "This course was not programmed to the specifications of your browser and version. This application was developed to Internet Explorer 7 and Firefox 3.  Any unexpected experiences could be a direct result of your browser version and settings";
+        }
+        if (msg != "") {
+            alert(msg);
+        }
+    }
+
+    function move_up()
+    {
+        scroll_clipper.scrollTop = 0;
+    }
+
+
+
+</script>
+</body>
+</html>

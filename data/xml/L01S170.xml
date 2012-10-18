@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<evaluation evalType="multipleChoiceSingleSelect" design="true" scoreType="noScore">
+        <titleText><![CDATA[Assessment]]></titleText>
+		<questionText><![CDATA[Select the component that is NOT part of the Job Analysis and Assessment Strategy step:]]></questionText>
+		<instructionText><![CDATA[Choose the best answer, then select Submit.]]></instructionText>
+		<feedback>
+			<feedbackText valueID="v1">
+                <![CDATA[The Job Analysis and Assessment Strategy step involves identifying the critical competencies of the position; identifying knowledge, skills, and abilities; identifying factors in ranking applicants; and determining and confirming an assessment strategy.
+]]></feedbackText>
+			<feedbackText valueID="v2">
+                <![CDATA[The Job Analysis and Assessment Strategy step involves identifying the critical competencies of the position; identifying knowledge, skills, and abilities; identifying factors in ranking applicants; and determining and confirming an assessment strategy.
+]]></feedbackText>
+		</feedback>
+<!--		<remediation>
+		    <file href="remFile.htm" windowOptions="height=500,width=300,top=100,left=400"/>
+		    <linkText>For more information about this topic click here!</linkText>
+		</remediation>-->
+		<choice-collection>
+			<choice id="c1" valueID="v2">
+				<text><![CDATA[Identify critical competencies]]></text>
+			</choice>
+			<choice id="c2" valueID="v1">
+				<text><![CDATA[Perform a background check]]></text>	
+			</choice>
+			<choice id="c3" valueID="v2">
+				<text><![CDATA[Confirm the assessment strategy]]></text>
+			</choice>
+		</choice-collection>
+		<value-collection>
+			<value id="v1"><![CDATA[true]]></value>
+			<value id="v2"><![CDATA[false]]></value>
+		</value-collection>
+</evaluation>

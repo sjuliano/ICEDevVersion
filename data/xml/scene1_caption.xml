@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/04/ttaf1" xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling">
+  <head>
+   <styling>
+      <style id="1" tts:textAlign="right"/>
+      <style id="2" tts:color="transparent"/>
+      <style id="3" style="2" tts:backgroundColor="white"/>
+      <style id="4" style="2 3" tts:fontSize="20"/>
+   </styling>
+  </head>
+  <body>
+   <div xml:lang="en">    
+	<p begin="00:00:01.25" dur="00:00:02.50">Melvin: Hey.</p>
+    <p begin="00:00:02.00" dur="00:00:03.00">Nancy: Oh, morning.</p>
+    <p begin="00:00:04.00" dur="00:00:03.50">Melvin: What’re you up to?</p>
+    <p begin="00:00:05.00" dur="00:00:05.00">Nancy: Oh, just wrapping up a few things here. </p>
+    <p begin="00:00:08.50" dur="00:00:05.00">Nancy:  Please, have a seat. What’re you avoiding?</p>
+    <p begin="00:00:11.00" dur="00:00:06.00">Melvin: Nothing, I just wanted to stop by and say good morning. Say, did you hear about Foster?</p>
+    <p begin="00:00:14.50" dur="00:00:03.25">Nancy: No, what happened?</p>
+    <p begin="00:00:16.25" dur="00:00:03.00">Melvin: You didn’t hear? </p>
+    <p begin="00:00:17.75" dur="00:00:03.00">Nancy: No, is everything OK?</p>
+    <p begin="00:00:19.00" dur="00:00:06.00">Melvin: He’s fine. I mean, fine for him. But, he lost it yesterday.</p>
+    <p begin="00:00:23.00" dur="00:00:03.00">Nancy: He lost it?</p>
+    <p begin="00:00:24.50" dur="00:00:04.00">Melvin: Yeah, he totally yelled at somebody.</p>
+    <p begin="00:00:26.75" dur="00:00:03.00">Nancy: (surprised) Yelled?</p>
+    <p begin="00:00:28.25" dur="00:00:04.00">Melvin: Well, OK, he raised his voice a little bit.</p>
+    <p begin="00:00:30.75" dur="00:00:03.00">Nancy: At who?</p> 
+    <p begin="00:00:32.75" dur="00:00:03.50">Melvin: Uh, it was at me.</p>
+    <p begin="00:00:34.00" dur="00:00:06.00">Nancy: (laughing) Ha. No wonder, of course it was. What did you do?</p>
+    <p begin="00:00:39.50" dur="00:00:06.50">Melvin: Nothing, I just asked him if he could help me out with something. I think he’s a little overwhelmed right now.</p> 
+	<p begin="00:00:43.00" dur="00:00:05.00">Melvin: He said he’s gonna quit if they don’t find somebody soon.</p>
+    <p begin="00:00:45.50" dur="00:00:05.00">Nancy: Yeah, I know they’ve been working on getting someone to help.</p>
+    <p begin="00:00:48.50" dur="00:00:06.25">Melvin: Yeah, but the whole process has taken about four months, and I think he’s getting fed up.</p>
+    <p begin="00:00:52.75" dur="00:00:03.50">Nancy: Yeah. So what happened?</p>
+    <p begin="00:00:55.50" dur="00:00:06.00">Melvin: Oh, nothing, I talked to him, calmed him down. I’ve got a way with people.</p>
+  </div>
+  </body>
+</tt> 

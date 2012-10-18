@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/04/ttaf1" xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling">
+  <head>
+   <styling>
+      <style id="1" tts:textAlign="right"/>
+      <style id="2" tts:color="transparent"/>
+      <style id="3" style="2" tts:backgroundColor="white"/>
+      <style id="4" style="2 3" tts:fontSize="20"/>
+   </styling>
+  </head>
+  <body>
+   <div xml:lang="en">    
+	<p begin="00:00:00.50" dur="00:00:02.50">Tracy: Hi Nancy, Melvin.</p>
+    <p begin="00:00:01.75" dur="00:00:02.50">Nancy: Hi Tracy.</p> 
+    <p begin="00:00:02.75" dur="00:00:03.50">Tracy: You two in the middle of something?</p>
+    <p begin="00:00:04.25" dur="00:00:04.00">Nancy: Uh, no, Melvin was just leaving.</p>
+    <p begin="00:00:06.50" dur="00:00:04.00">Melvin: Yeah, back to the old grindstone. </p>
+    <p begin="00:00:07.50" dur="00:00:05.50">Tracy: Ah, yes, and that report you promised me yesterday? How’s that coming?</p>    
+    <p begin="00:00:11.00" dur="00:00:04.50">Melvin: It’s coming. I’ll get that right to you.</p>
+    <p begin="00:00:15.50" dur="00:00:03.00">Nancy: How’s it going?</p>
+    <p begin="00:00:16.50" dur="00:00:04.50">Tracy: Hi Nancy, good, how are you today? </p>
+    <p begin="00:00:18.75" dur="00:00:04.50">Nancy: Oh, pretty good, pretty good.</p>    
+    <p begin="00:00:20.25" dur="00:00:03.50">Tracy: So are you busy?</p>
+    <p begin="00:00:21.75" dur="00:00:04.00">Nancy: Not really, what’s up?</p>
+    <p begin="00:00:23.50" dur="00:00:06.50">Tracy: Well, I know you’re fairly new as a hiring manager, but there’s a project we’d like you to take on.</p>
+    <p begin="00:00:29.00" dur="00:00:02.50">Nancy: OK.</p>
+	<p begin="00:00:30.25" dur="00:00:06.50">Tracy: The Department wants every office to streamline and improve its hiring process. I want you to make that happen for us.</p>
+	<p begin="00:00:37.00" dur="00:00:04.25">Nancy: Oh wow, no pressure. What does streamline and improve mean?</p>
+	<p begin="00:00:41.50" dur="00:00:05.00">Tracy: Well the average time it took last year to hire someone was 150 days.</p>
+	<p begin="00:00:45.75" dur="00:00:04.50">Nancy: No wonder, did you hear about Foster?</p> 
+	<p begin="00:00:48.00" dur="00:00:06.50">Tracy: I did, and I can understand his frustration. It’s taking us so long to hire someone to help him.</p>
+	<p begin="00:00:54.00" dur="00:00:06.50">Tracy: Anyways, the Office of Personnel Management wants us to whittle that 150 days down to no more than 80 days. </p>
+	<p begin="00:01:00.50" dur="00:00:03.00">Nancy: Wow, that’s a big change.</p> 
+	<p begin="00:01:03.00" dur="00:00:04.00">Tracy: Oh it is. From five months to three months.</p>
+	<p begin="00:01:06.00" dur="00:00:06.00">Nancy: Well, it sounds like a great idea, but how am I supposed to actually make that happen?</p>
+	<p begin="00:01:11.50" dur="00:00:08.50">Tracy: Well, OPM has an 80-day process already worked out. And apparently 42% of the Federal Government is already doing this.</p>
+	<p begin="00:01:19.00" dur="00:00:12.00">Tracy: So, I'm going to e-mail you some information on OPM's new 80-day process. And I'm hoping you can get your head around it really quickly, because I have a few questions, and maybe you can help clear that up.</p>
+	<p begin="00:01:31.00" dur="00:00:04.00">Tracy: Would you be free later this afternoon?</p>
+	<p begin="00:01:33.50" dur="00:00:04.00">Nancy: Sure, I'll keep an eye out for your emails and get started.</p>
+	<p begin="00:01:36.00" dur="00:00:04.00">Tracy: OK, great! So just to be clear, let’s just do a little recap:</p>
+	<p begin="00:01:40.00" dur="00:00:03.50">Tracy: I would like you to:</p>
+	<p begin="00:01:41.50" dur="00:00:07.00">Tracy: identify the key steps in the 80-day process</p>
+	<p begin="00:01:45.00" dur="00:00:07.50">Tracy: identify key decisions that you as a hiring manager should make before posting a job vacancy, and also to</p>
+	<p begin="00:01:50.25" dur="00:00:07.50">Tracy: identify strategies for avoiding obstacles in the hiring process.</p>
+	<p begin="00:01:55.00" dur="00:00:03.50">Nancy: OK, got it. Thanks.</p>
+	<p begin="00:01:56.50" dur="00:00:04.00">Tracy: Great, thank you so much, Nancy.</p>
+	<p begin="00:01:57.50" dur="00:00:03.50">Nancy: OK, see you later.</p>
+	<p begin="00:01:58.00" dur="00:00:02.50">Tracy: Bye-bye.</p>
+  </div>
+  </body>
+</tt> 

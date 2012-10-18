@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<evaluation evalType="multipleChoiceSingleSelect" design="true" scoreType="noScore">
+        <titleText><![CDATA[Assessment]]></titleText>
+		<questionText><![CDATA[A Hiring Manager should:]]></questionText>
+		<instructionText><![CDATA[Choose the best answer, then select Submit.]]></instructionText>
+		<feedback>
+			<feedbackText valueID="v1"><![CDATA[Maintaining open avenues of communication with the HR office, with your peers, and with subordinates can help you to avoid common obstacles, and make sure you are aware of potential changes in the organization. 
+
+Additionally, the Hiring Manager should gain a working knowledge of the training, recruiting, and interviewing process, as it will serve him or her well in the hiring process. 
+]]></feedbackText>
+			<feedbackText valueID="v2"><![CDATA[Maintaining open avenues of communication with the HR office, with your peers, and with subordinates can help you to avoid common obstacles, and make sure you are aware of potential changes in the organization. 
+
+Additionally, the Hiring Manager should gain a working knowledge of the training, recruiting, and interviewing process, as it will serve him or her well in the hiring process. 
+]]></feedbackText>
+		</feedback>
+<!--		<remediation>
+		    <file href="remFile.htm" windowOptions="height=500,width=300,top=100,left=400"/>
+		    <linkText>For more information about this topic click here!</linkText>
+		</remediation>-->
+		<choice-collection>
+			<choice id="c1" valueID="v1">
+				<text><![CDATA[Maintain open communication with the HR Office, peers, and subordinates.]]></text>
+			</choice>
+			<choice id="c2" valueID="v2">
+				<text><![CDATA[Ensure that other individuals know about the training and recruiting process, without worrying about the details personally.]]></text>	
+			</choice>
+			<choice id="c3" valueID="v2">
+				<text><![CDATA[Not have to be knowledgeable about interviewing techniques.]]></text>
+			</choice>
+		</choice-collection>
+		<value-collection>
+			<value id="v1"><![CDATA[true]]></value>
+			<value id="v2"><![CDATA[false]]></value>
+		</value-collection>
+</evaluation>

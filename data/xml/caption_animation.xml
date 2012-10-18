@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/2006/04/ttaf1" xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling">
+  <head>
+   <styling>
+      <style id="1" tts:textAlign="right"/>
+      <style id="2" tts:color="transparent"/>
+      <style id="3" style="2" tts:backgroundColor="white"/>
+      <style id="4" style="2 3" tts:fontSize="20"/>
+   </styling>
+  </head>
+  <body>
+   <div xml:lang="en">
+    <p begin="00:00:00.00" dur="00:00:04.50">Narrator: Let’s review the fourteen steps:</p>
+    <p begin="00:00:03.50" dur="00:00:10.50">Step 1. Validate the Need Against Workforce Staffing and Recruiting Plans. Comparing the need to the existing plans of the organization confirms that the new position is critical.</p>
+    <p begin="00:00:14.00" dur="00:00:11.75">Step 2. Request Personnel Action (RPA) Form SF-52 to Fill Job. This step begins the official paper-work of the hiring process.</p>
+    <p begin="00:00:25.75" dur="00:00:10.25">Step 3. Review the Position Description (PD) with the HR Office. This step ensures that the Position Description is accurate and current.</p>
+    <p begin="00:00:36.00" dur="00:00:12.50">Step 4. Confirm Job Analysis and Assessment Strategy. Preparing to analyze and assess candidates in advance means less time and less subjectivity when actual candidates are present.</p>
+    <p begin="00:00:48.50" dur="00:00:15.00">After completing these steps, the HR office will be responsible for steps 5 through 9. The HR office will post the job, accept applicants, close the job posting, and forward a list of eligible applicants to the Hiring Manager.</p>
+    <p begin="00:01:03.50" dur="00:00:13.00">Step 10. Review Applications, Schedule and Conduct Interviews, Check References, Make Selection, and Return Certificate. This step is the interview and selection part of the process.</p>
+    <p begin="00:01:16.50" dur="00:00:15.50">Steps 11 through 14 are completed by the HR office as well. They involve official paperwork, background checks, and the official offer to the candidate. If the candidate accepts, then the final step is to begin working at their new job!</p>
+    </div>
+  </body>
+</tt>

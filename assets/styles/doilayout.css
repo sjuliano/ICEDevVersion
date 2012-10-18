@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {margin:0 auto; background:#AAB177; background-image:url(../images/layout/contentcontainbg.png); background-repeat:no-repeat;font-size:medium; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+#mainContent {margin:0 auto; background:#AAB177; background-image:url(../images/layout/contentcontainbg.png); background-repeat:no-repeat; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+h1.title {
+	color:#FFFFFF;
+	margin:0;
+	padding:15px;
+	text-align:center;
+	}
+	
+h1{
+	font-size:36px;
+	color:#626b37;
+	text-align:left;
+	}
+	
+
+/*----------- START CODE FOR STANDARD CONTENT AREA ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#contentWindow {
+	background-image:url(../images/layout/contentWindowbg.png);
+	background-repeat:repeat-x;
+	height:383px;
+	margin:0 auto;
+	}
+
+#titlecontent {
+	position:relative;
+	margin:0 auto;
+	padding:3px;
+	padding-left:0px;
+	width:960px;
+	
+	}
+
+#titlecontent h1 {
+	position:relative;
+	color:#FFFFFF;	
+	}
+	
+#contentcontainer {
+	position:relative;
+	margin:0 auto;
+	padding:15px;
+	min-height:100%;
+	width:960px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-image:url(../images/layout/contentcontainbg2.png);
+/*	float:none;
+*/	}
+
+#contentcontainer p {
+	font-size:16px;
+	color:#111111;
+
+	}
+
+
+#contentcontainer h2 {
+	font-size:24px;
+	color:#111111;
+
+	}
+	
+#contentcontainer ul li {
+	font-size:16px;
+	line-height:1;
+	margin-top:1.5em;
+	}
+	
+#contentcontainer img.right {
+	float:right;
+	padding:25px;
+	background-image:url(../images/layout/imgbg.png);
+	background-repeat:no-repeat;
+	height:400px;
+	width:400px;
+
+	}
+	
+#videoBlock {
+	text-align:center;
+	margin:0 auto;
+	width:720px;
+	position:relative;
+	
+	}
+/*----------- END CODE FOR STANDARD CONTENT AREA ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*----------- START CODE FOR QUIZ CONTENT AREA ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#quizcontent {}
+
+#quiz h2 {
+	color:#626b37;
+	font-size:24px
+	}
+	
+#quiz p {
+	font-size:16px;
+	font-weight:bold;
+	font-style:italic;
+	}
+	
+
+#quizchoices 
+{
+   
+	padding-left:10px;
+	font-weight:bold;
+	font-size:18px;
+	color:#111111;
+	
+}
+
+
+#feedback {
+	background:#FFF;
+	width:930px;
+	height:100%;
+	padding:15px;
+	border-color:#333;
+	border-style:solid;
+	margin-top:10px;
+	/*white-space: pre; */ /* for IE 6 and 7*/
+  /*  white-space: pre-wrap; *//* or pre-line*/
+   /* white-space: pre-line;*/
+	}

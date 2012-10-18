@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<evaluation evalType="multipleChoiceSingleSelect" design="true" scoreType="noScore">
+    <titleText><![CDATA[Assessment]]></titleText>
+    <questionText><![CDATA[You already eat lunch once a week with your HR Officer. What are some other things you can do in order to prepare for the 80-day Federal Hiring Process?]]></questionText>
+    <instructionText><![CDATA[Choose the best answer, then select Submit.]]></instructionText>
+    <feedback>
+        <feedbackText valueID="v1">
+            <![CDATA[The best answer is to review position descriptions and make sure they match what people in those positions actually do. Ensuring that position descriptions are accurate helps you in almost all of the steps of the hiring process.
+
+While it is good to focus on retaining your employees, this is not the best way to plan for the federal hiring process. You should focus on retaining your employees as well as have a plan for hiring new employees.
+
+Staying focused on your own issues is not productive. You may miss important pieces of information that can help you prepare for a new hiring process.
+]]>
+        </feedbackText>
+        <feedbackText valueID="v2">
+            <![CDATA[The best answer is to review position descriptions and make sure they match what people in those positions actually do. Ensuring that position descriptions are accurate helps you in almost all of the steps of the hiring process.
+
+While it is good to focus on retaining your employees, this is not the best way to plan for the federal hiring process. You should focus on retaining your employees as well as have a plan for hiring new employees.
+
+Staying focused on your own issues is not productive. You may miss important pieces of information that can help you prepare for a new hiring process.
+]]>
+        </feedbackText>
+    </feedback>
+    <remediation>
+	    <file href="remFile.htm" windowOptions="height=500,width=300,top=100,left=400"/>
+	    <linkText>For more information about this topic select this link</linkText>
+	</remediation>
+    <choice-collection>
+        <choice id="c1" valueID="v2">
+            <text><![CDATA[Focus on keeping your current employees by taking them to lunch and working to maximize their yearly raises.]]></text>
+        </choice>
+        <choice id="c2" valueID="v1">
+            <text><![CDATA[Review position descriptions and make sure they match what people in those positions actually do.]]></text>
+        </choice>
+        <choice id="c3" valueID="v2">
+            <text><![CDATA[Stay focused on your own issues, and don’t get distracted by the activities of your peers and subordinates.]]></text>
+        </choice>
+    </choice-collection>
+    <value-collection>
+        <value id="v1"><![CDATA[true]]></value>
+        <value id="v2"><![CDATA[false]]></value>
+    </value-collection>
+</evaluation>

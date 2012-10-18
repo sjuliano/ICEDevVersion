@@ -1,0 +1,211 @@
+/*--------------TOOLBAR CODE------------------*/
+
+#toolbar {
+	background-image:url(../images/layout/bggrad.png);
+	height:30px;
+	color:#EDE1AA;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding-bottom:2px;
+	}
+
+#toolbar.footer {
+	position:absolute;
+    bottom:0;
+	width:100%;
+	
+	}
+/*------------- START CODE FOR TOP TOOL BAR ------------------*/
+#branding {
+	float:left;
+	padding:3px 15px 3px 8px;
+	}
+	
+#coursetitle {
+	padding-top:5px;
+	max-width:700px;
+	overflow:hidden;
+	height:30px;
+	}
+
+#systemtools {
+	float:right;
+	height:30px;
+	}
+
+
+a.help, a.close, a.help:hover, a.close:hover, a.settings, a.settings:hover{
+	display:block;
+	margin-top:3px;
+	float:left;
+	text-indent: -9999px;
+	height:22px;
+	background-image:url(../images/layout/btnTemplate.png);
+}
+
+a.help {
+	background-position: 0px 0px;
+	width:48px;
+	}
+
+
+a.help:hover {
+	background-position: -48px 0px;
+	width:48px;
+}
+
+a.close {
+	background-position: -102px 0px;
+	width:24px;
+	}
+	
+a.close:hover {
+	background-position: -126px 0px;
+	width:24px;
+	
+}
+
+/*----------- END CODE FOR TOP TOOL BAR ---------------*/
+/*----------- START CODE FOR BOTTOM TOOL BAR ---------------*/
+
+#coursetools {
+	float:right;
+	height:30px;
+	max-width:700px;
+	}
+
+#coursetools a {
+	display:block;
+	margin-top:3px;
+	float:left;
+	text-indent: -9999px;
+	height:29px;
+	background-image:url(../images/layout/btnTemplate.png);
+	}
+
+a.info {
+	background-position: 0px -23px;
+	width:95px;
+	}
+a.info:hover {
+	background-position: -94px -23px;
+	width:95px;
+	}
+	
+a.resources {
+	background-position: -210px -23px;
+	width:55px;
+	}
+a.resources:hover {
+	background-position: -265px -23px;
+	width:55px;
+	}
+	
+#coursecontrols {
+	margin:0 auto;
+	height:25px;
+	width:500px
+	}
+	
+#progresscontainer  {
+	background-image:url(../images/layout/btnTemplate.png);
+	background-repeat:no-repeat;
+	background-position: 0px -54px;
+	width:160px;
+	height:28px;
+	margin-top:4px;
+	color:#0CF;
+	position:relative;
+	float:right;
+	font-size:12px;
+	text-align:center;
+	padding-top:2px;
+	}
+
+a.back, a.next, a.back:hover, a.next:hover {
+	display:block;
+	margin-top:3px;
+	float:right;
+	text-indent: -9999px;
+	height:27px;
+	background-image:url(../images/layout/btnTemplate.png);
+	}	
+
+a.back {
+	background-position: -188px -22px;
+	width:26px;
+	}
+a.back:hover {
+	background-position: -214px -22px;
+	width:26px;
+	}
+a.next {
+	background-position: -242px -22px;
+	width:26px;
+	}
+a.next:hover {
+	background-position: -268px -22px;
+	width:26px;
+	}
+	
+	
+/*----------- END CODE FOR BOTTOM TOOL BAR ---------------*/
+/*----------- START CODE FOR INFOPANEL ---------------*/
+
+#infoPanelContainer {
+	background-image:url(../images/layout/infoPanelbg.png);
+	width:35%;
+	height:600px; /*------This needs to be set to 100% somehow---------*/
+	}
+
+#infoPanelBar {
+	background-image:url(../images/layout/bggrad.png);
+	height:30px;
+	color:#EDE1AA;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	badding-bottom:2px;
+	}
+
+
+#infoPanelBar a {
+	display:block;
+	margin-top:3px;
+	float:left;
+	text-indent: -9999px;
+	height:22px;
+	background-image:url(../images/layout/btnTemplate.png);
+	}
+
+#infoPanelBar a.close {
+	float:right;
+	}
+
+a.resources{
+/*	background-position: -293px -22px ; ---Use this for non-hover position -----*/	
+	background-position: -387px -22px;
+	width:95px;
+	}
+	
+a.resources:hover {
+	background-position: -387px -22px;
+	width:95px;
+	}
+
+#infoPanelContent {
+	
+	}
+
+#infoPanelContent h2 {
+	color:#333;
+	background:#CCC;
+	border:#000 thin;
+	font-size:14px;
+	height:20px;
+	padding-left:15px;
+	}
+
+#infoPanelContent p {
+	font-size:14px;
+	padding-left:15px;
+	text-decoration:none;
+	
+	}

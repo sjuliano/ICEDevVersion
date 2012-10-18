@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ICEObject>
+    <system>
+        <playerMode>presentation</playerMode>
+        <contentMode>flash</contentMode>
+        <theme>ice</theme>
+        <branding>branding.png</branding>
+        <UIWidgets>
+            <search/>
+            <inspectorPanel align="left">
+                <navigation/>
+                <resources/>
+                <acronyms/>
+            </inspectorPanel>
+            <toolBar dockable="true">
+                <previousButton/>
+                <nextButton/>
+                <notes/>
+                <progressBar/>
+            </toolBar>
+            <dropDownMenu>
+                <menuItem name="Session">
+                    <option name="Save">
+                        <option>BookMark</option>
+                        <option>Notes</option>
+                    </option>
+                    <option name="Notes">
+                        <option name="Print">
+                            <option>Current Page</option>
+                            <option>All Notes</option>
+                        </option>
+                        <option>Notes</option>
+                    </option>
+                </menuItem>
+                <menuItem name="Help">
+                    <option>Support</option>
+                    <option>Help Document</option>
+                    <option>ReadMe</option>
+                </menuItem>
+                <menuItem name="Settings">
+                    <option>Player</option>
+                    <option>Content</option>
+                    <option>Media</option>
+                </menuItem>
+            </dropDownMenu>
+        </UIWidgets>
+    </system>
+    <module id="U1L1">
+        <title>Default Screen Title Sample 001- NEED SOURCE!</title>
+        <node-collection>
+            <node id="1" type="">
+                <title>Default</title>
+                <file src="assets/media/intro.swf" />
+            </node>
+        </node-collection>
+    </module>
+</ICEObject>

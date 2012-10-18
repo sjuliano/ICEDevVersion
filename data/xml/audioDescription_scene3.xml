@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene type="simpleScene">
+	<element id="step_1" type="video">
+			<title>Step 1</title>
+			<file src="assets/media/video/0010.f4v" />
+			<caption src="data/xml/EG04-0030A_cc.xml"></caption>
+            <cuePoints>
+                <cuePoint id="1"  begin="00:00:09.25" dur="00:00:02.00">
+                    <action type="caption" src="media/audio/tracyChecksNotes.mp3"><![CDATA[Tracy checks her notes.]]></action>
+                </cuePoint>
+                <cuePoint id="2"  begin="00:00:28.25" dur="00:00:02.00">
+                    <action type="caption" src="media/audio/tracyLeaves.mp3"><![CDATA[Tracy leaves.]]></action>
+                </cuePoint>
+            </cuePoints>
+	</element>
+</scene>

@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>DOI PROPOSAL DEMO</title>
+<link href="styles/doilayout.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+<div id="contentWindow">
+<div id="titlecontent">
+<h1>TITLE GOES HERE</h1>
+</div>
+
+	<div id="contentcontainer">
+                  	
+	<div id="quiz">
+    	<h2>Knowledge Check</h2>
+    
+    <p>1. This is the question being asked. Will you choose A, B, C, or D?</p>
+    
+    
+    </div>
+    	<div id="quizchoices"><form action="javascript:alert('success!');">
+    <div>
+      <input type="text" />
+
+      <input type="submit" />
+    </div>
+  </form>
+  <span></span>
+<script>
+
+    $("form").submit(function ()
+    {
+        if ($("input:first").val() == "correct") {
+            $("span").text("Validated...").show();
+            return true;
+        }
+        $("span").text("Not valid!").show().fadeOut(1000);
+        return false;
+    });
+</script>
+</div>
+     
+    <div id="feedback">
+    
+    <h3>Correct!</h3>
+    <p>You chose option B because it is correct.</p>
+    
+    </div>
+    
+    </div>
+
+
+
+
+</div>
+<script type="text/javascript" src="../script/jquery-1.8.0.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+</head>
+<style>
+/*----------- START CODE FOR INFOPANEL ---------------*/
+
+#infoPanelContainer {
+	background-image:url(images/infoPanelbg.png);
+	width:35%;
+	height:600px; /*------This needs to be set to 100% somehow---------*/
+	}
+
+#infoPanelBar {
+	background-image:url(images/bggrad.png);
+	height:30px;
+	color:#EDE1AA;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	badding-bottom:2px;
+	}
+
+
+#infoPanelBar div {
+	display:block;
+	margin-top:3px;
+	text-indent: -9999px;
+	height:22px;
+	background-image:url(images/btnTemplate.png);
+	}
+
+#closeInfo {
+	float:right;
+	background-position: -102px 0px;
+	width:24px;	
+	}
+
+#closeInfo:hover {
+	background-position: -125px 0px;
+	width:24px;
+	
+}
+
+#resources{
+/*	background-position: -293px -22px ; ---Use this for non-hover position -----*/	
+	float:left;
+	background-position: -294px -22px;
+	width:95px;
+	}
+	
+#resources:hover {
+	background-position: -388px -22px;
+	width:95px;
+	}
+#menubtn {
+/*	background-position: -293px -22px ; ---Use this for non-hover position -----*/
+	float:left;	
+	background-position: -294px -48px;
+	width:95px;
+	}
+	
+#menubtn:hover {
+	background-position: -388px -48px;
+	width:95px;
+	}
+
+#infoPanelContent {
+	
+	}
+
+#infoPanelContent h2 {
+	color:#333;
+	background:#CCC;
+	border:#000 thin;
+	font-size:14px;
+	height:20px;
+	padding-left:15px;
+	}
+
+#infoPanelContent p {
+	font-size:14px;
+	padding-left:15px;
+	text-decoration:none;
+	
+	}
+</style>
+<body>
+
+
+<div id="infoPanelContainer">  
+        <div id="infoPanelBar">        
+        <div id="closeInfo">Close Information Panel And Return To Course</div>
+        <div id="menubtn"></div>
+        <div id="resources">Resources Button</div>
+</div>
+            <div id="infoPanelContent">
+            <h2>Section1</h2>
+            <p>items for section 1</p>
+            <h2>Section 2</h2>
+            <p>items for section 1</p>
+            <ul>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li></ul>
+            </div>   
+    </div>
+</div>
+
+</body>
+</html>

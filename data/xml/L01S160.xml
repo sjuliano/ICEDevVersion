@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<evaluation evalType="multipleChoiceSingleSelect" design="true" scoreType="noScore">
+        <titleText><![CDATA[Assessment]]></titleText>
+		<questionText><![CDATA[Which of the following items falls under the responsibility of the Hiring Manager?]]></questionText>
+		<instructionText><![CDATA[Choose the best answer, then select Submit.]]></instructionText>
+		<feedback>
+			<feedbackText valueID="v1"><![CDATA[Reviewing applications, conducting interviews, and selecting the applicant all falls under the responsibility of the Hiring Manager.
+
+Posting the job vacancy and submitting the official offer both fall under the Human Resources Office’s responsibilities.
+]]></feedbackText>
+			<feedbackText valueID="v2"><![CDATA[Reviewing applications, conducting interviews, and selecting the applicant all falls under the responsibility of the Hiring Manager.
+
+Posting the job vacancy and submitting the official offer both fall under the Human Resources Office’s responsibilities.
+
+]]></feedbackText>
+		</feedback>
+<!--		<remediation>
+		    <file href="remFile.htm" windowOptions="height=500,width=300,top=100,left=400"/>
+		    <linkText>For more information about this topic click here!</linkText>
+		</remediation>-->
+		<choice-collection>
+			<choice id="c1" valueID="v1">
+				<text><![CDATA[Review applications, conduct interviews, and select the applicant]]></text>
+			</choice>
+			<choice id="c2" valueID="v2">
+				<text><![CDATA[Post the job vacancy]]></text>	
+			</choice>
+			<choice id="c3" valueID="v2">
+				<text><![CDATA[Submit the official offer]]></text>
+			</choice>
+		</choice-collection>
+		<value-collection>
+			<value id="v1"><![CDATA[true]]></value>
+			<value id="v2"><![CDATA[false]]></value>
+		</value-collection>
+</evaluation>

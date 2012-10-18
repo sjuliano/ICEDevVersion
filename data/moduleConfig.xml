@@ -1,0 +1,190 @@
+﻿<?xml version="1.0"?>
+<ICEObject>
+    <system>
+        <playerMode>presentation</playerMode>
+        <contentMode>HTML</contentMode>
+        <host></host>
+        <hostAPI><!--SCORM 2004--></hostAPI>
+        <theme>custom</theme>
+        <branding>DOI_Seal_55x54.png</branding>
+        <UI>
+            <search>false</search>
+            <informationPanel align="left">
+                <navigation/>
+                <resources>                   
+                    <resource src="http://www.opm.gov/investigate/resources/position/index.aspx">OPM Position Designation System</resource>
+                    <resource src=" http://apps.opm.gov/ADT/ADTClientMain.aspx?JScript=1">OPM Assessment Decision Tool</resource>
+                    <resource src="http://apps.opm.gov/ADT/ContentFiles/AssessmentDecisionGuide071807.pdf">OPM Assessment Decision Guide</resource>
+                    <resource src="http://www.opm.gov/hiringtoolkit">  OPM’s Hiring Tool Kit</resource>
+                    <resource src="http://uniformguidelines.com/uniguideprint.html">Uniform Guidelines on Employee Selection Procedures</resource>
+                    <resource src="http://www.opm.gov/hiringtoolkit/docs/Pledge%20to%20Applicants.ppt"> OPM Pledge to Applicants</resource>
+                </resources>
+                <acronyms>false</acronyms>
+            </informationPanel>
+            <toolBar dockable="false">
+                <previousButton/>
+                <nextButton/>
+                <notes/>
+                <progressBar/>
+            </toolBar>
+            <help>
+                <option>Walkthrough</option>
+                <option>About</option>
+            </help>
+        </UI>
+    </system>
+    <module id="U1L1">
+        <title>Department of the Interior Sample Course</title>
+        <node-collection>
+            <node id="100" type="">
+                <title>Department of the Interior Sample Course</title>
+                <node-collection>
+                     <node id="1" type="">
+                        <title>Introduction</title>
+                        <file src="assets/L01S010.html" />
+                    </node>
+					 <node id="1.5" type="">
+                        <title>Course Overview</title>
+                        <file src="assets/L01S015.html" />
+                    </node>
+					<node id="2" type="">
+                        <title>What's the Problem? (Video)</title>
+                        <file src="assets/L01S020.html" />
+                    </node>
+					<node id="2.5" type="">
+                        <title>Introduction</title>
+                        <file src="assets/L01S025.html" />
+                    </node>
+					<node id="2.6" type="">
+                        <title>How is the Department of the Interior Meeting the Challenge? (Video)</title>
+                        <file src="assets/L01S026.html" />
+                    </node>
+					<node id="2.7" type="">
+                        <title>Hiring Managers Have a Critical Role in the Process</title>
+                        <file src="assets/L01S027.html" />
+                    </node>
+				</node-collection>
+            </node>		
+			 <node id="101" type="">
+                <title>OPM 80-Day Federal Hiring Process</title>
+                <node-collection>		
+					<node id="4" type="">
+                        <title>Hiring Managers Have a Critical Role in the Process (Continued)</title>
+                        <file src="assets/L01S040.html" />
+                    </node>
+					<node id="5" type="">
+                        <title>Step 1</title>
+                        <file src="assets/L01S050.html" />
+                    </node>
+					<node id="6" type="">
+                        <title>Step 2</title>
+                        <file src="assets/L01S060.html" />
+                    </node>
+					<node id="7" type="">
+                        <title>Step 3</title>
+                        <file src="assets/L01S070.html" />
+                    </node>
+					<node id="8" type="">
+                        <title>Step 4</title>
+                        <file src="assets/L01S080.html" />
+                    </node>
+					<node id="9" type="">
+                        <title>Step 5</title>
+                        <file src="assets/L01S090.html" />
+                    </node>
+					<node id="10" type="">
+                        <title>Step 6</title>
+                        <file src="assets/L01S100.html" />
+                    </node>
+					<node id="11" type="">
+                        <title>Step 7</title>
+                        <file src="assets/L01S110.html" />
+                    </node>
+					<node id="12" type="">
+                        <title>Step 8</title>
+                        <file src="assets/L01S120.html" />
+                    </node>
+					<node id="13" type="">
+                        <title>Step 9</title>
+                        <file src="assets/L01S130.html" />
+                    </node>
+					<node id="14" type="">
+                        <title>Step 10</title>
+                        <file src="assets/L01S140.html" />
+                    </node>
+					<node id="15" type="">
+                        <title>Step 11</title>
+                        <file src="assets/L01S150.html" />
+                    </node>
+					<node id="16" type="">
+                        <title>Step 12</title>
+                        <file src="assets/L01S160.html" />
+                    </node>
+					<node id="17" type="">
+                        <title>Step 13</title>
+                        <file src="assets/L01S170.html" />
+                    </node>
+					<node id="18" type="">
+                        <title>Step 14</title>
+                        <file src="assets/L01S180.html" />
+                    </node>
+					<node id="19" type="">
+                        <title>The 80 Day Timeline (Animation)</title>
+                        <file src="assets/L01S190.html" />
+                    </node>
+				</node-collection>
+            </node>		
+			 <node id="102" type="">
+                <title>Preparation And Strategies</title>
+                <node-collection>		
+					<node id="20" type="">
+                        <title>Identifying Key Decisions</title>
+                        <file src="assets/L01S200.html" />
+                    </node>
+					<node id="21" type="">
+                        <title>Identifying Strategies to Avoid Obstacles</title>
+                        <file src="assets/L01S210.html" />
+                    </node>
+				</node-collection>
+            </node>		
+			 <node id="103" type="">
+                <title>Assessment</title>
+                <node-collection>		
+					<node id="21.5" type="">
+                        <title>Check Your Knowledge (Video)</title>
+                        <file src="assets/L01S215.html" />
+                    </node>
+                    <node id="22" type="evaluation">
+                        <title>Assessment 1</title>
+                        <file src="L01S150.xml" />
+                    </node>
+                    <node id="23" type="evaluation">
+                        <title>Assessment 2</title>
+                        <file src="L01S160.xml" />
+                    </node>
+					<node id="24" type="evaluation">
+                        <title>Assessment 3</title>
+                        <file src="L01S170.xml" />
+                    </node>
+                    <node id="25" type="evaluation">
+                        <title>Assessment 4</title>
+                        <file src="L01S180.xml" />
+                    </node>
+				</node-collection>
+            </node>		
+			 <node id="103" type="">
+                <title>Course Summary</title>
+                <node-collection>					
+					<node id="26" type="">
+                        <title>Conclusion (Video)</title>
+                        <file src="assets/L01S220.html" />
+                    </node>
+					<node id="27" type="">
+                        <title>Congratulations!</title>
+                        <file src="assets/L01S230.html" />
+                    </node>
+                </node-collection>
+            </node>
+        </node-collection>
+    </module>
+</ICEObject>
